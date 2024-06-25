@@ -1,0 +1,108 @@
+* {
+	font-family:"Montserrat",arial,sans-serif;
+	font-weight:500;
+}
+body {
+	background:#F0F4F9;
+}
+.nav {
+	padding: 30px 0 0 0;
+	background:#66B678;
+}
+.nav .logo_pic {
+	width:120px;
+    display:inline-block;
+    position:relative;
+    height:100px;
+    overflow:hidden;
+    vertical-align: middle;
+    margin-left: 45.5%;
+    margin-right: auto;
+   	margin-top: -18px;
+}
+.nav .logo_pic img {
+	position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    max-width:135px;
+    width:100%;
+    display:inline-block;
+    z-index:10;
+}
+.nav .profile_pic {
+    width:50px;
+    display:inline-block;
+    position:relative;
+    height:50px;
+    overflow:hidden;
+    vertical-align: middle;
+    margin-right: 5%;
+}
+.nav .profile_pic img {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    max-width:135px;
+    width:100%;
+    display:inline-block;
+    z-index:10;
+}
+.requests .dropdown-requests {
+    padding-top: 2%;
+    position: relative;
+}
+.requests .dropdown-requests .dropdown-menu a {
+    justify-content: center;
+}
+.input-group {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.input-group #SearchInput {
+    text-align: center;
+}
+.not-visible {
+    display: none;
+}
+.result-card {
+    position: relative;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    border-radius: 7px;
+    padding: 15px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.friends_list {
+    padding-top: 5%;
+    position: relative;
+
+}
+.friends_list .friend_card .friend_pic {
+    width:100px;
+    display:block;
+    position:relative;
+    height:100px;
+    overflow:hidden;
+    vertical-align: middle;
+    margin: auto;
+}
+.friends_list .friend_card .friend_pic img {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    max-width:135px;
+    width:100%;
+    display:inline-block;
+    z-index:10;
+}
+.friends_list .friend_card a {
+    color: #000;
+    text-decoration: none;
+}
