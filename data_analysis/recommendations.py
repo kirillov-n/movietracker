@@ -1,6 +1,7 @@
 import pandas as pd
+from typing import List
 
-def get_rec_df(film):
+def get_rec_df(film: int | str) -> pd.DataFrame:
     """
     Recommendation for 1 film
     :param film: int or str - kinopoiskId
@@ -15,7 +16,7 @@ def get_rec_df(film):
     return rec
 
 
-def get_personal_rec(five_best):
+def get_personal_rec(five_best: List[int | str]) -> pd.DataFrame:
     """
     Recommendation for five "best" user's movies
     :param five_best: list of ints or strings
@@ -29,7 +30,7 @@ def get_personal_rec(five_best):
     return rec
 
 
-def get_popular():
+def get_popular() -> pd.DataFrame:
     """
     If it's not enough films to make a recommendation by them
     :return: df (kinopoiskId, ratingImdb)
